@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>310956115074-5urde6u5s1bebatn5bkm19tf6531eum7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.310956115074-5urde6u5s1bebatn5bkm19tf6531eum7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDVYlh8Fy6j0KHh2kPvMzdcKlep69GUpHI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>310956115074</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.emmavelllis.brainteasers</string>
+	<key>PROJECT_ID</key>
+	<string>brainteaser-8960f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>brainteaser-8960f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:310956115074:ios:e2cb16c97e26dc491fe09b</string>
+	<key>DATABASE_URL</key>
+	<string>https://brainteaser-8960f.firebaseio.com</string>
+</dict>
+</plist>

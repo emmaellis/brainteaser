@@ -1,0 +1,6 @@
+framework module Pods_brainteasers_brainteasersUITests {
+  umbrella header "Pods-brainteasers-brainteasersUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

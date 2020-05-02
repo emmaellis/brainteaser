@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38D4FA63245B1A9D00EF85AF /* LossViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D4FA62245B1A9D00EF85AF /* LossViewController.swift */; };
+		38D4FA65245B20CC00EF85AF /* WinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D4FA64245B20CC00EF85AF /* WinViewController.swift */; };
+		7310ADC82454A86900CD8E22 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7310ADC72454A86900CD8E22 /* GoogleService-Info.plist */; };
+		7396D47A244F93F2008A8EB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7396D479244F93F2008A8EB1 /* AppDelegate.swift */; };
+		7396D47C244F93F2008A8EB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7396D47B244F93F2008A8EB1 /* SceneDelegate.swift */; };
+		7396D480244F93F4008A8EB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7396D47F244F93F4008A8EB1 /* Assets.xcassets */; };
+		7396D483244F93F4008A8EB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7396D482244F93F4008A8EB1 /* Preview Assets.xcassets */; };
+		7396D486244F93F4008A8EB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7396D484244F93F4008A8EB1 /* LaunchScreen.storyboard */; };
+		7396D491244F93F4008A8EB1 /* brainteasersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7396D490244F93F4008A8EB1 /* brainteasersTests.swift */; };
+		7396D49C244F93F4008A8EB1 /* brainteasersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7396D49B244F93F4008A8EB1 /* brainteasersUITests.swift */; };
+		7396D4AA244F944E008A8EB1 /* brainteaserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7396D4A9244F944E008A8EB1 /* brainteaserModel.swift */; };
+		73D8CC3B2458C9FF00EEA964 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D8CC3A2458C9FF00EEA964 /* MainViewController.swift */; };
+		73D8CC3D2458CF9A00EEA964 /* PuzzleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D8CC3C2458CF9A00EEA964 /* PuzzleTableViewCell.swift */; };
+		73D8CC482458D99E00EEA964 /* PuzzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D8CC472458D99E00EEA964 /* PuzzleViewController.swift */; };
+		73D8CC4A2458E4B500EEA964 /* ListOfPuzzles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D8CC492458E4B500EEA964 /* ListOfPuzzles.swift */; };
+		73D8CC4B2458EC0300EEA964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73D8CC402458D88600EEA964 /* Main.storyboard */; };
+		CD0B578AEC4FE69EA5F9CFD1 /* Pods_brainteasersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CEEEBD4E41ED17F1D0A55E /* Pods_brainteasersTests.framework */; };
+		DD0B087C68D76F10EDBF32EF /* Pods_brainteasers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14996D3CDA74C972048A458D /* Pods_brainteasers.framework */; };
+		F73E95C921D64123D7F53CD3 /* Pods_brainteasers_brainteasersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA6316AB021A6F2B33A04B8 /* Pods_brainteasers_brainteasersUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7396D48D244F93F4008A8EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7396D46E244F93F2008A8EB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7396D475244F93F2008A8EB1;
+			remoteInfo = brainteasers;
+		};
+		7396D498244F93F4008A8EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7396D46E244F93F2008A8EB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7396D475244F93F2008A8EB1;
+			remoteInfo = brainteasers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14996D3CDA74C972048A458D /* Pods_brainteasers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brainteasers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9266876BFDC1C0CB3A6DBB /* Pods-brainteasers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brainteasers.debug.xcconfig"; path = "Target Support Files/Pods-brainteasers/Pods-brainteasers.debug.xcconfig"; sourceTree = "<group>"; };
+		24C4956B50EE20363705309B /* Pods-brainteasersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brainteasersTests.debug.xcconfig"; path = "Target Support Files/Pods-brainteasersTests/Pods-brainteasersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		38D4FA62245B1A9D00EF85AF /* LossViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LossViewController.swift; sourceTree = "<group>"; };
+		38D4FA64245B20CC00EF85AF /* WinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinViewController.swift; sourceTree = "<group>"; };
+		4B9430EF19E02168D3DC5B43 /* Pods-brainteasers-brainteasersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brainteasers-brainteasersUITests.release.xcconfig"; path = "Target Support Files/Pods-brainteasers-brainteasersUITests/Pods-brainteasers-brainteasersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7310ADC72454A86900CD8E22 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7396D476244F93F2008A8EB1 /* brainteasers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brainteasers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7396D479244F93F2008A8EB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7396D47B244F93F2008A8EB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7396D47F244F93F4008A8EB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7396D482244F93F4008A8EB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7396D485244F93F4008A8EB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7396D487244F93F4008A8EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7396D48C244F93F4008A8EB1 /* brainteasersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brainteasersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7396D490244F93F4008A8EB1 /* brainteasersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brainteasersTests.swift; sourceTree = "<group>"; };
+		7396D492244F93F4008A8EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7396D497244F93F4008A8EB1 /* brainteasersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brainteasersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7396D49B244F93F4008A8EB1 /* brainteasersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brainteasersUITests.swift; sourceTree = "<group>"; };
+		7396D49D244F93F4008A8EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7396D4A9244F944E008A8EB1 /* brainteaserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brainteaserModel.swift; sourceTree = "<group>"; };
+		73D8CC3A2458C9FF00EEA964 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		73D8CC3C2458CF9A00EEA964 /* PuzzleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleTableViewCell.swift; sourceTree = "<group>"; };
+		73D8CC402458D88600EEA964 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		73D8CC472458D99E00EEA964 /* PuzzleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleViewController.swift; sourceTree = "<group>"; };
+		73D8CC492458E4B500EEA964 /* ListOfPuzzles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfPuzzles.swift; sourceTree = "<group>"; };
+		8BA6316AB021A6F2B33A04B8 /* Pods_brainteasers_brainteasersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brainteasers_brainteasersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0B3BE95B33230F881899AB /* Pods-brainteasers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brainteasers.release.xcconfig"; path = "Target Support Files/Pods-brainteasers/Pods-brainteasers.release.xcconfig"; sourceTree = "<group>"; };
+		B7CEEEBD4E41ED17F1D0A55E /* Pods_brainteasersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brainteasersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB483BB4E447FC49C3B4C4B /* Pods-brainteasersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brainteasersTests.release.xcconfig"; path = "Target Support Files/Pods-brainteasersTests/Pods-brainteasersTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8A966B3BE58BAC0336C1F39 /* Pods-brainteasers-brainteasersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brainteasers-brainteasersUITests.debug.xcconfig"; path = "Target Support Files/Pods-brainteasers-brainteasersUITests/Pods-brainteasers-brainteasersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7396D473244F93F2008A8EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0B087C68D76F10EDBF32EF /* Pods_brainteasers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7396D489244F93F4008A8EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0B578AEC4FE69EA5F9CFD1 /* Pods_brainteasersTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7396D494244F93F4008A8EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73E95C921D64123D7F53CD3 /* Pods_brainteasers_brainteasersUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7396D46D244F93F2008A8EB1 = {
+			isa = PBXGroup;
+			children = (
+				7396D478244F93F2008A8EB1 /* brainteasers */,
+				7396D48F244F93F4008A8EB1 /* brainteasersTests */,
+				7396D49A244F93F4008A8EB1 /* brainteasersUITests */,
+				7396D477244F93F2008A8EB1 /* Products */,
+				96415EEB3EA434E01AF257CC /* Pods */,
+				74366F5142DD8E6BB0639CFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7396D477244F93F2008A8EB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7396D476244F93F2008A8EB1 /* brainteasers.app */,
+				7396D48C244F93F4008A8EB1 /* brainteasersTests.xctest */,
+				7396D497244F93F4008A8EB1 /* brainteasersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7396D478244F93F2008A8EB1 /* brainteasers */ = {
+			isa = PBXGroup;
+			children = (
+				73D8CC3E2458D82600EEA964 /* Model */,
+				73D8CC3F2458D87800EEA964 /* View */,
+				73D8CC422458D8AB00EEA964 /* Controller */,
+				7396D479244F93F2008A8EB1 /* AppDelegate.swift */,
+				7310ADC72454A86900CD8E22 /* GoogleService-Info.plist */,
+				7396D47B244F93F2008A8EB1 /* SceneDelegate.swift */,
+				7396D47F244F93F4008A8EB1 /* Assets.xcassets */,
+				7396D484244F93F4008A8EB1 /* LaunchScreen.storyboard */,
+				7396D487244F93F4008A8EB1 /* Info.plist */,
+				7396D481244F93F4008A8EB1 /* Preview Content */,
+			);
+			path = brainteasers;
+			sourceTree = "<group>";
+		};
+		7396D481244F93F4008A8EB1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7396D482244F93F4008A8EB1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7396D48F244F93F4008A8EB1 /* brainteasersTests */ = {
+			isa = PBXGroup;
+			children = (
+				7396D490244F93F4008A8EB1 /* brainteasersTests.swift */,
+				7396D492244F93F4008A8EB1 /* Info.plist */,
+			);
+			path = brainteasersTests;
+			sourceTree = "<group>";
+		};
+		7396D49A244F93F4008A8EB1 /* brainteasersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7396D49B244F93F4008A8EB1 /* brainteasersUITests.swift */,
+				7396D49D244F93F4008A8EB1 /* Info.plist */,
+			);
+			path = brainteasersUITests;
+			sourceTree = "<group>";
+		};
+		73D8CC3E2458D82600EEA964 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7396D4A9244F944E008A8EB1 /* brainteaserModel.swift */,
+				73D8CC492458E4B500EEA964 /* ListOfPuzzles.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73D8CC3F2458D87800EEA964 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				73D8CC3C2458CF9A00EEA964 /* PuzzleTableViewCell.swift */,
+				73D8CC402458D88600EEA964 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73D8CC422458D8AB00EEA964 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				73D8CC3A2458C9FF00EEA964 /* MainViewController.swift */,
+				73D8CC472458D99E00EEA964 /* PuzzleViewController.swift */,
+				38D4FA62245B1A9D00EF85AF /* LossViewController.swift */,
+				38D4FA64245B20CC00EF85AF /* WinViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		74366F5142DD8E6BB0639CFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14996D3CDA74C972048A458D /* Pods_brainteasers.framework */,
+				8BA6316AB021A6F2B33A04B8 /* Pods_brainteasers_brainteasersUITests.framework */,
+				B7CEEEBD4E41ED17F1D0A55E /* Pods_brainteasersTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96415EEB3EA434E01AF257CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F9266876BFDC1C0CB3A6DBB /* Pods-brainteasers.debug.xcconfig */,
+				9A0B3BE95B33230F881899AB /* Pods-brainteasers.release.xcconfig */,
+				F8A966B3BE58BAC0336C1F39 /* Pods-brainteasers-brainteasersUITests.debug.xcconfig */,
+				4B9430EF19E02168D3DC5B43 /* Pods-brainteasers-brainteasersUITests.release.xcconfig */,
+				24C4956B50EE20363705309B /* Pods-brainteasersTests.debug.xcconfig */,
+				EBB483BB4E447FC49C3B4C4B /* Pods-brainteasersTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7396D475244F93F2008A8EB1 /* brainteasers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7396D4A0244F93F4008A8EB1 /* Build configuration list for PBXNativeTarget "brainteasers" */;
+			buildPhases = (
+				6AB4A418178A1CE7B08C50D6 /* [CP] Check Pods Manifest.lock */,
+				7396D472244F93F2008A8EB1 /* Sources */,
+				7396D473244F93F2008A8EB1 /* Frameworks */,
+				7396D474244F93F2008A8EB1 /* Resources */,
+				4AD84078312192FF9792B813 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = brainteasers;
+			productName = brainteasers;
+			productReference = 7396D476244F93F2008A8EB1 /* brainteasers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7396D48B244F93F4008A8EB1 /* brainteasersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7396D4A3244F93F4008A8EB1 /* Build configuration list for PBXNativeTarget "brainteasersTests" */;
+			buildPhases = (
+				0AFB9906CA8B1816CFC7D550 /* [CP] Check Pods Manifest.lock */,
+				7396D488244F93F4008A8EB1 /* Sources */,
+				7396D489244F93F4008A8EB1 /* Frameworks */,
+				7396D48A244F93F4008A8EB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7396D48E244F93F4008A8EB1 /* PBXTargetDependency */,
+			);
+			name = brainteasersTests;
+			productName = brainteasersTests;
+			productReference = 7396D48C244F93F4008A8EB1 /* brainteasersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7396D496244F93F4008A8EB1 /* brainteasersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7396D4A6244F93F4008A8EB1 /* Build configuration list for PBXNativeTarget "brainteasersUITests" */;
+			buildPhases = (
+				8530F4D4B27F488F2C63753C /* [CP] Check Pods Manifest.lock */,
+				7396D493244F93F4008A8EB1 /* Sources */,
+				7396D494244F93F4008A8EB1 /* Frameworks */,
+				7396D495244F93F4008A8EB1 /* Resources */,
+				9A56F7F497388275B8BB9F31 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7396D499244F93F4008A8EB1 /* PBXTargetDependency */,
+			);
+			name = brainteasersUITests;
+			productName = brainteasersUITests;
+			productReference = 7396D497244F93F4008A8EB1 /* brainteasersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7396D46E244F93F2008A8EB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Emma Ellis";
+				TargetAttributes = {
+					7396D475244F93F2008A8EB1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					7396D48B244F93F4008A8EB1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7396D475244F93F2008A8EB1;
+					};
+					7396D496244F93F4008A8EB1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7396D475244F93F2008A8EB1;
+					};
+				};
+			};
+			buildConfigurationList = 7396D471244F93F2008A8EB1 /* Build configuration list for PBXProject "brainteasers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7396D46D244F93F2008A8EB1;
+			productRefGroup = 7396D477244F93F2008A8EB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7396D475244F93F2008A8EB1 /* brainteasers */,
+				7396D48B244F93F4008A8EB1 /* brainteasersTests */,
+				7396D496244F93F4008A8EB1 /* brainteasersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7396D474244F93F2008A8EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7396D486244F93F4008A8EB1 /* LaunchScreen.storyboard in Resources */,
+				73D8CC4B2458EC0300EEA964 /* Main.storyboard in Resources */,
+				7310ADC82454A86900CD8E22 /* GoogleService-Info.plist in Resources */,
+				7396D483244F93F4008A8EB1 /* Preview Assets.xcassets in Resources */,
+				7396D480244F93F4008A8EB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7396D48A244F93F4008A8EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7396D495244F93F4008A8EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AFB9906CA8B1816CFC7D550 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-brainteasersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AD84078312192FF9792B813 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-brainteasers/Pods-brainteasers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-brainteasers/Pods-brainteasers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-brainteasers/Pods-brainteasers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AB4A418178A1CE7B08C50D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-brainteasers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8530F4D4B27F488F2C63753C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-brainteasers-brainteasersUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A56F7F497388275B8BB9F31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-brainteasers-brainteasersUITests/Pods-brainteasers-brainteasersUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-brainteasers-brainteasersUITests/Pods-brainteasers-brainteasersUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-brainteasers-brainteasersUITests/Pods-brainteasers-brainteasersUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7396D472244F93F2008A8EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D8CC4A2458E4B500EEA964 /* ListOfPuzzles.swift in Sources */,
+				7396D47A244F93F2008A8EB1 /* AppDelegate.swift in Sources */,
+				7396D47C244F93F2008A8EB1 /* SceneDelegate.swift in Sources */,
+				38D4FA63245B1A9D00EF85AF /* LossViewController.swift in Sources */,
+				7396D4AA244F944E008A8EB1 /* brainteaserModel.swift in Sources */,
+				73D8CC3D2458CF9A00EEA964 /* PuzzleTableViewCell.swift in Sources */,
+				38D4FA65245B20CC00EF85AF /* WinViewController.swift in Sources */,
+				73D8CC482458D99E00EEA964 /* PuzzleViewController.swift in Sources */,
+				73D8CC3B2458C9FF00EEA964 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7396D488244F93F4008A8EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7396D491244F93F4008A8EB1 /* brainteasersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7396D493244F93F4008A8EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7396D49C244F93F4008A8EB1 /* brainteasersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7396D48E244F93F4008A8EB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7396D475244F93F2008A8EB1 /* brainteasers */;
+			targetProxy = 7396D48D244F93F4008A8EB1 /* PBXContainerItemProxy */;
+		};
+		7396D499244F93F4008A8EB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7396D475244F93F2008A8EB1 /* brainteasers */;
+			targetProxy = 7396D498244F93F4008A8EB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7396D484244F93F4008A8EB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7396D485244F93F4008A8EB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7396D49E244F93F4008A8EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7396D49F244F93F4008A8EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7396D4A1244F93F4008A8EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F9266876BFDC1C0CB3A6DBB /* Pods-brainteasers.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"brainteasers/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = brainteasers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emmavelllis.brainteasers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7396D4A2244F93F4008A8EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A0B3BE95B33230F881899AB /* Pods-brainteasers.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"brainteasers/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = brainteasers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emmavelllis.brainteasers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7396D4A4244F93F4008A8EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C4956B50EE20363705309B /* Pods-brainteasersTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = brainteasersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emmavelllis.brainteasersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brainteasers.app/brainteasers";
+			};
+			name = Debug;
+		};
+		7396D4A5244F93F4008A8EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB483BB4E447FC49C3B4C4B /* Pods-brainteasersTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = brainteasersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emmavelllis.brainteasersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brainteasers.app/brainteasers";
+			};
+			name = Release;
+		};
+		7396D4A7244F93F4008A8EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A966B3BE58BAC0336C1F39 /* Pods-brainteasers-brainteasersUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = brainteasersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emmavelllis.brainteasersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = brainteasers;
+			};
+			name = Debug;
+		};
+		7396D4A8244F93F4008A8EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B9430EF19E02168D3DC5B43 /* Pods-brainteasers-brainteasersUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = brainteasersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emmavelllis.brainteasersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = brainteasers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7396D471244F93F2008A8EB1 /* Build configuration list for PBXProject "brainteasers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7396D49E244F93F4008A8EB1 /* Debug */,
+				7396D49F244F93F4008A8EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7396D4A0244F93F4008A8EB1 /* Build configuration list for PBXNativeTarget "brainteasers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7396D4A1244F93F4008A8EB1 /* Debug */,
+				7396D4A2244F93F4008A8EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7396D4A3244F93F4008A8EB1 /* Build configuration list for PBXNativeTarget "brainteasersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7396D4A4244F93F4008A8EB1 /* Debug */,
+				7396D4A5244F93F4008A8EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7396D4A6244F93F4008A8EB1 /* Build configuration list for PBXNativeTarget "brainteasersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7396D4A7244F93F4008A8EB1 /* Debug */,
+				7396D4A8244F93F4008A8EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7396D46E244F93F2008A8EB1 /* Project object */;
+}
